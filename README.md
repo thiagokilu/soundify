@@ -1,7 +1,4 @@
-# Spotify web clone
-
-![Thumbnail.png](https://i.ibb.co/BqLxwxj/image.png)
-
+# Soundify
 project inspired on Spotify web, using html, css and javascript, with a fake api storing the artists
 
 ## Features
@@ -11,6 +8,7 @@ project inspired on Spotify web, using html, css and javascript, with a fake api
 *Responsive Design: Compatible with all devices.
 
 <p align="center">
+  <img alt="License" src="https://i.ibb.co/BqLxwxj/image.png">
   <img alt="License" src="https://i.ibb.co/3pGBdJs/image.png">
 </p>
 
