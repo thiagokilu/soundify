@@ -1,6 +1,6 @@
 # Spotify web clone
 
-![Thumbnail.png](https://i.ibb.co/WVqL0PV/image.png)
+![Thumbnail.png](https://i.ibb.co/BqLxwxj/image.png)
 
 project inspired on Spotify web, using html, css and javascript, with a fake api storing the artists
 
@@ -10,9 +10,6 @@ project inspired on Spotify web, using html, css and javascript, with a fake api
 * User-Friendly Interface: Intuitive design for easy navigation.
 *Responsive Design: Compatible with all devices.
 
-<p align="center">
-  <img alt="License" src="https://i.ibb.co/BqLxwxj/image.png">
-</p>
 <p align="center">
   <img alt="License" src="https://i.ibb.co/3pGBdJs/image.png">
 </p>
