@@ -61,7 +61,7 @@ btnMicrophone.addEventListener ("click", () => {
 async function requestApi(searchTerm) {
 
   const resposta = await fetch(
-    "https://spotifiy-imersao-dev.vercel.app/api/artist/test?test=" + searchTerm
+    "https://soundify-five.vercel.app/api/artist/test?test=" + searchTerm
   );
   dados = await resposta.json();
 
@@ -74,7 +74,7 @@ async function requestApi(searchTerm) {
 
 
   const respostaMusic = await fetch(
-    `https://spotifiy-imersao-dev.vercel.app/api/musics?id_music=${artistId}`
+    `https://soundify-five.vercel.app/api/musics?id_music=${artistId}`
   );
 
   dadosArtist = await respostaMusic.json();
