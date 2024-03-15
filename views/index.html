@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/vars.css">
     <link rel="stylesheet" href="css/main-content.css">
     <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/menu-mobile.css">
         <script src="https://kit.fontawesome.com/a75e615f85.js" crossorigin="anonymous"></script>
 </head>
 
@@ -302,6 +304,27 @@
                 <img src="assets/icons/volume.png" alt="volume" class="volume-icon">
                 <input type="range" name="volume" id="volume-slider" min="1" max="100">
             </div>
+
+            <div class="menu-mobile">
+                <a href="" class="menu__item">
+                    <div class="menu__item">
+                        <span class="fa-solid fa-home"></span>
+                        <span class="menu__title">Início</span>
+                    </div>
+                </a>
+                <a class="menu__item" id="busca-mobile">
+                    <div class="menu__item">
+                        <span class="fa-solid fa-search"></span>
+                        <span class="menu__title">Busca</span>
+                    </div>
+                </a>
+                <a href="" class="menu__item">
+                    <div class="menu__item">
+                        <span class="fa-solid fa-book"></span>
+                        <span class="menu__title">Sua biblioteca</span>
+                    </div>
+                </a>
+        </div>
     
     </div>
 
@@ -324,6 +347,7 @@
         <button id="fecha" onclick="fechar()">X</button>
     </footer>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/mobile.js"></script>
 </body>
 
 </html>
