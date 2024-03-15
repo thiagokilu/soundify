@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerNavigation = document.querySelector(".header__navigation");
 
     mobileSearch.addEventListener("click", () => {
-        console.log('deu');
         headerNavigation.classList.remove("hidden-mobile");
         resultPlaylist.classList.add("hidden");
     });
